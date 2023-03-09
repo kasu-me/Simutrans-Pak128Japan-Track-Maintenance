@@ -79,8 +79,8 @@ InputFactor[3]=100
 
 MapColor=172
 Dims=1,1,2
-BackImage[0][0][0][0][0]=track_maintenance_site.0.0,-16,-16
-BackImage[1][0][0][0][0]=track_maintenance_site.0.1,16,-16
+BackImage[0][0][0][0][0]=track_maintenance_site.0.0,-12,-12
+BackImage[1][0][0][0][0]=track_maintenance_site.0.1,12,-12
 pax_level=50
 intro_year=1968
 Copyright=M_Kasumi
