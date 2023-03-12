@@ -20,7 +20,7 @@ value=25
 speed_bonus=1
 weight_per_unit=1000
 -----------------------
-#木枕木
+#木枕木(80kg/個換算)
 #(3本/パレット)
 obj=good
 name=railroad_tie_wood
@@ -30,7 +30,7 @@ value=30
 speed_bonus=1
 weight_per_unit=240
 -----------------------
-#PC枕木
+#PC枕木(240kg/個換算)
 #(3本/パレット)
 obj=good
 name=railroad_tie_pc
@@ -40,8 +40,8 @@ value=35
 speed_bonus=1
 weight_per_unit=720
 -----------------------
-#レール(30kg/m)
-#(1t=33本分)
+#レール(50kg/m換算)
+#(1単位=1000kg≒20m分)
 obj=good
 name=track_rail
 metric=tonnen
@@ -58,23 +58,35 @@ DistributionWeight=1
 Productivity=320
 Range=32
 
+# バラスト
+# 100t貯蔵
+# 軌道延長1000mあたり3000t敷設=軌道延長20mあたり60t消費
 inputGood[0]=track_ballast
-InputCapacity[0]=200
+InputCapacity[0]=100
 InputSupplier[0]=1
-InputFactor[0]=100
+InputFactor[0]=6000
 
+# 木枕木
+# 60単位(×3本=180本)貯蔵
+# 軌道延長20mあたり32本設置≒10単位消費
 inputGood[1]=railroad_tie_wood
-InputCapacity[1]=200
+InputCapacity[1]=60
 InputSupplier[1]=1
-InputFactor[1]=100
+InputFactor[1]=1000
 
+# PC枕木
+# 60単位(×3本=180本)貯蔵
+# 軌道延長20mあたり32本設置≒10単位消費
 inputGood[2]=railroad_tie_pc
-InputCapacity[2]=200
+InputCapacity[2]=60
 InputSupplier[2]=1
-InputFactor[2]=100
+InputFactor[2]=1000
 
+# レール
+# 50トン(×20m=1000m)貯蔵
+# 1単位=20m消費
 inputGood[3]=track_rail
-InputCapacity[3]=200
+InputCapacity[3]=50
 InputSupplier[3]=1
 InputFactor[3]=100
 
