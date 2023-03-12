@@ -41,13 +41,14 @@ speed_bonus=1
 weight_per_unit=720
 -----------------------
 #レール(30kg/m)
+#(1t=33本分)
 obj=good
 name=track_rail
-metric=hon
+metric=tonnen
 catg=8
 value=35
 speed_bonus=1
-weight_per_unit=30
+weight_per_unit=1000
 -----------------------
 #保線現場
 Obj=factory
