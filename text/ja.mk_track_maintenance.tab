@@ -16,6 +16,10 @@ track_rail
 track_maintenance_site
 保線現場
 mk_track_maintenance_rail_01
-保線現場産業 延長用 (線路際レール･山越器)
+保線産業 延長用 (線路際レール･山越器)
 mk_track_maintenance_rail_02
-保線現場産業 延長用 (線路際レール)
+保線産業 延長用 (線路際レール)
+mk_track_maintenance_worker
+保線産業 作業員
+mk_track_maintenance_excavator
+保線産業 重機
