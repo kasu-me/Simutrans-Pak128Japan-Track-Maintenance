@@ -180,3 +180,37 @@ Diagonal[SW]=-
 Diagonal[SE]=-
 Diagonal[NE]=-
 Diagonal[NW]=-
+-----------------------
+# 作業員パーツ
+copyright=M_Kasumi
+obj=roadsign
+name=mk_track_maintenance_worker
+waytype=water
+cost=50000
+intro_year=1872
+intro_month=10
+retire_year=2999
+retire_month=12
+icon=> rails.2.3
+cursor=rails.2.4
+Image[0]=rails.2.1,-12,-12
+Image[1]=rails.2.1,-12,-12
+Image[2]=rails.2.2,12,-12
+Image[3]=rails.2.2,12,-12
+-----------------------
+# 重機パーツ
+copyright=M_Kasumi
+obj=roadsign
+name=mk_track_maintenance_excavator
+waytype=water
+cost=50000
+intro_year=1872
+intro_month=10
+retire_year=2999
+retire_month=12
+icon=> rails.3.3
+cursor=rails.3.4
+Image[0]=rails.3.1,-12,-12
+Image[1]=rails.3.1,-12,-12
+Image[2]=rails.3.2,12,-12
+Image[3]=rails.3.2,12,-12
