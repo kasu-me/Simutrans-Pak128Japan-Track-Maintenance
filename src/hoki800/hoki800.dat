@@ -25,8 +25,7 @@ FreightImage[N]=hoki800.1.4
 FreightImage[W]=hoki800.1.5
 FreightImage[NW]=hoki800.1.6
 FreightImage[NE]=hoki800.1.7
-intro_year=1968
-retire_year=2008
+intro_year=1958
 -------------------------------------------------------------------------------
 copyright=M_Kasumi
 obj=vehicle
@@ -47,6 +46,5 @@ EmptyImage[N]=hoki800.1.4
 EmptyImage[W]=hoki800.1.5
 EmptyImage[NW]=hoki800.1.6
 EmptyImage[NE]=hoki800.1.7
-intro_year=1968
-retire_year=2008
+intro_year=1958
 -------------------------------------------------------------------------------
